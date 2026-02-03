@@ -1,13 +1,19 @@
 # Relit-LiVE: Relight Video by Jointly Learning Environment Video
 
-<div align="center">
-<a href="https://github.com/zhuxing0/Relit-LiVE">
-  <img alt="arxiv" src="https://img.shields.io/badge/arXiv-PDF-b31b1b">
-</a>
-<a href="https://github.com/zhuxing0/Relit-LiVE">
-    <img alt="Project Page" src="assets/badge-website.svg">
-</a>
-</div>
+<p align="center">
+  <a href="">
+    <img src="https://img.shields.io/badge/arXiv-PDF-b31b1b" alt="Paper">
+  </a>
+  <a href="">
+    <img src="https://raw.githubusercontent.com/prs-eth/Marigold/main/doc/badges/badge-website.svg" alt="Website">
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/badge/🤗%20Hugging%20Face%20-Model-green" alt="Hugging Face Model">
+  </a>
+  <a href="https://www.apache.org/licenses/LICENSE-2.0">
+    <img src="https://img.shields.io/badge/License-Apache--2.0-929292" alt="License">
+  </a>
+</p>
 
 This repo contains the official code of our paper: [Relit-LiVE: Relight Video by Jointly Learning Environment Video](https://github.com/zhuxing0/Relit-LiVE).
 
