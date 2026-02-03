@@ -28,7 +28,7 @@ This repo contains the official code of our paper: [Relit-LiVE: Relight Video by
   <img src="assets/teaser_v2_00.jpg" alt="Overview" width="100%"/>
 </p>
 
-We present ***Relit-LiVE***, a novel video relighting framework that produces physically consistent and temporally stable results without needing prior knowledge of camera pose. This is achieved by jointly generating relighting videos and environment videos. Additionally, by integrating real-world lighting effects with intrinsic constraints, the relighting videos demonstrate remarkable physical plausibility, showcasing realistic reflections and shadows.
+We present **Relit-LiVE**, a novel video relighting framework that produces physically consistent and temporally stable results without needing prior knowledge of camera pose. This is achieved by jointly generating relighting videos and environment videos. Additionally, by integrating real-world lighting effects with intrinsic constraints, the relighting videos demonstrate remarkable physical plausibility, showcasing realistic reflections and shadows.
 
 ---
 
