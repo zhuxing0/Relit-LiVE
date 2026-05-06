@@ -1,28 +1,12 @@
 # Relit-LiVE: Relight Video by Jointly Learning Environment Video
 
 <div align="center">
-  <a href='https://github.com/zhuxing0' target='_blank'>Weiqing Xiao</a><sup>1,*</sup>&emsp;
-  <a href='https://github.com/Luh1124' target='_blank'>Hong Li</a><sup>2,3,*</sup>&emsp;
-  Xiuyu Yang<sup>4,*</sup>&emsp;
-  <a href='https://github.com/houyuanchen111' target='_blank'>Houyuan Chen</a><sup>5</sup>&emsp;
-  Wenyi Li<sup>6</sup>&emsp;
-  Tianqi Liu<sup>7</sup>&emsp;
-  Shaocong Xu<sup>2</sup>&emsp;
-  <a href='https://hugoycj.github.io/' target='_blank'>Chongjie Ye</a><sup>8</sup>&emsp;
-  <a href='https://sites.google.com/view/fromandto' target='_blank'>Hao Zhao</a><sup>4,2,†</sup>&emsp;
-  Beibei Wang<sup>1,†</sup>
+<a href='https://github.com/zhuxing0' target='_blank'>Weiqing Xiao</a><sup>1,*</sup>&emsp;<a href='https://github.com/Luh1124' target='_blank'>Hong Li</a><sup>2,3,*</sup>&emsp;Xiuyu Yang<sup>4,*</sup>&emsp;<a href='https://github.com/houyuanchen111' target='_blank'>Houyuan Chen</a><sup>5</sup>&emsp;Wenyi Li<sup>6</sup>&emsp;Tianqi Liu<sup>7</sup>&emsp;Shaocong Xu<sup>2</sup>&emsp;<a href='https://hugoycj.github.io/' target='_blank'>Chongjie Ye</a><sup>8</sup>&emsp;<a href='https://sites.google.com/view/fromandto' target='_blank'>Hao Zhao</a><sup>4,2,†</sup>&emsp;Beibei Wang<sup>1,†</sup>
 </div>
 
 <div align="center">
-  <sup>1</sup>Nanjing University&emsp;
-  <sup>2</sup>BAAI&emsp;
-  <sup>3</sup>Beihang University&emsp;
-  <sup>4</sup>Tsinghua University&emsp;
-  <sup>5</sup>HKUST&emsp;
-  <sup>6</sup>UCAS&emsp;
-  <sup>7</sup>HUST&emsp;
-  <sup>8</sup>CUHK-Shenzhen<br>
-  <sup>*</sup>Equal contribution.&emsp;<sup>†</sup>Corresponding authors.
+<sup>1</sup>Nanjing University&emsp;<sup>2</sup>BAAI&emsp;<sup>3</sup>Beihang University&emsp;<sup>4</sup>Tsinghua University&emsp;<sup>5</sup>HKUST&emsp;<sup>6</sup>UCAS&emsp;<sup>7</sup>HUST&emsp;<sup>8</sup>CUHK-Shenzhen<br>
+<sup>*</sup>Equal contribution.&emsp;<sup>†</sup>Corresponding authors.
 </div>
 
 <p align="center">
@@ -61,13 +45,13 @@ We present **Relit-LiVE**, a novel video relighting framework that produces phys
 
 - May 8, 2026: Release project page and infer pipeline.
 
-## 📝 TODO List
+## 📝 Check list
 
-- [√] Release `the arxiv` and `project page`.
-- [√] Release `inference code` and `model checkpoints`.
+- [x] Release `the arxiv` and `project page`.
+- [x] Release `inference code` and `model checkpoints`.
 - [ ] Release `gradio code` and `complete inverse-forward pipeline`.
 - [ ] Release `training code` and `data pipeline`.
-- [ ] Release `train dataset`.
+- [ ] Release `training dataset`.
 
 ---
 
@@ -266,7 +250,7 @@ The following arguments are defined in `parse_args()` inside `relit_inference.py
 | `--wo_ref_weight` | float | `0.0` | Weight for the branch without reference-image conditioning. |
 | `--quality` | int | `5` | Video quality value passed to `imageio` when saving mp4 files. |
 
-## 📌 Notes
+### 📌 Notes
 
 - Output filenames automatically include parts of the checkpoint name, sequence name, resolution, reference-image mode, environment lighting information, inference steps, frame count, and `cfg_scale`.
 - When `--num_frames 1` is used, the script writes a png. When `--num_frames > 1`, it writes an mp4.
