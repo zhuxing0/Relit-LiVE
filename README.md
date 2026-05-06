@@ -1,7 +1,7 @@
 # Relit-LiVE: Relight Video by Jointly Learning Environment Video
 
 <div align="center">
-  <a href='https://github.com/zhuxing0' target='_blank'>Weiqing Xiao</a><sup>1,2,*</sup>&emsp;
+  <a href='https://github.com/zhuxing0' target='_blank'>Weiqing Xiao</a><sup>1,*</sup>&emsp;
   <a href='https://github.com/Luh1124' target='_blank'>Hong Li</a><sup>2,3,*</sup>&emsp;
   Xiuyu Yang<sup>4,*</sup>&emsp;
   <a href='https://github.com/houyuanchen111' target='_blank'>Houyuan Chen</a><sup>5</sup>&emsp;
@@ -102,17 +102,15 @@ pip install gradio
 
 ## 📦 Checkpoints
 
-The repository currently includes the following fine-tuned checkpoints:
+Download the **Relit-LiVE** checkpoints from Hugging Face and place them under `checkpoints/`.
 
-- `checkpoints/model_frame25_480_832.ckpt`
-- `checkpoints/model_frame57_480_832.ckpt`
-- `checkpoints/model_frame1_1024_1472.ckpt`
+| Checkpoint | Resolution | Frames | Download |
+| :--- | :---: | :---: | :---: |
+| `model_frame25_480_832.ckpt` | 480 × 832 | 8n+1, n∈{0,1,2,3} → 1/9/17/25 | [🤗 Download](https://huggingface.co/weiqingXiao/Relit-LiVE) |
+| `model_frame57_480_832.ckpt` | 480 × 832 | 8n+1, n∈{0,…,7} → 1/9/…/57 | [🤗 Download](https://huggingface.co/weiqingXiao/Relit-LiVE) |
+| `model_frame1_1024_1472.ckpt` | 1024 × 1472 | 1 (image) | [🤗 Download](https://huggingface.co/weiqingXiao/Relit-LiVE) |
 
-In addition to the fine-tuned checkpoints, inference also loads the Wan2.1 base model from:
-
-- `models/Wan-AI/Wan2.1-T2V-1.3B/`
-
-Make sure all required weights are placed in the corresponding repository directories before running inference.
+In addition, inference loads the Wan2.1 base model from `models/Wan-AI/Wan2.1-T2V-1.3B/`. Make sure all weights are in place before running inference.
 
 ## 🚀 Inference
 
@@ -273,10 +271,14 @@ The following arguments are defined in `parse_args()` inside `relit_inference.py
 - Output filenames automatically include parts of the checkpoint name, sequence name, resolution, reference-image mode, environment lighting information, inference steps, frame count, and `cfg_scale`.
 - When `--num_frames 1` is used, the script writes a png. When `--num_frames > 1`, it writes an mp4.
 
-# 🤝 Citation
+## 🤝 Citation
 
 If you find this repository helpful, please consider citing our paper:
 
 ```bibtex
 
 ```
+
+## 📝 Acknowledgements
+
+Code is built on [DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) and [diffusion-renderer](https://github.com/nv-tlabs/cosmos-transfer1-diffusion-renderer). Thanks all the authors for their excellent contributions!
