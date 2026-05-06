@@ -1,5 +1,37 @@
 # Relit-LiVE: Relight Video by Jointly Learning Environment Video
 
+<div align="center">
+  <a href='https://github.com/zhuxing0' target='_blank'>Weiqing Xiao</a><sup>1,2,*</sup>&emsp;
+  <a href='https://github.com/Luh1124' target='_blank'>Hong Li</a><sup>2,3,*</sup>&emsp;
+  Xiuyu Yang<sup>4,*</sup>&emsp;
+  <a href='https://github.com/houyuanchen111' target='_blank'>Houyuan Chen</a><sup>5</sup>&emsp;
+  Wenyi Li<sup>6</sup>&emsp;
+  Tianqi Liu<sup>7</sup>&emsp;
+  Shaocong Xu<sup>2</sup>&emsp;
+  <a href='https://hugoycj.github.io/' target='_blank'>Chongjie Ye</a><sup>8</sup>&emsp;
+  <a href='https://sites.google.com/view/fromandto' target='_blank'>Hao Zhao</a><sup>4,2,†</sup>&emsp;
+  Beibei Wang<sup>1,†</sup>
+</div>
+
+<div align="center">
+  <sup>1</sup>Nanjing University&emsp;
+  <sup>2</sup>BAAI&emsp;
+  <sup>3</sup>Beihang University&emsp;
+  <sup>4</sup>Tsinghua University&emsp;
+  <sup>5</sup>HKUST&emsp;
+  <sup>6</sup>UCAS&emsp;
+  <sup>7</sup>HUST&emsp;
+  <sup>8</sup>CUHK-Shenzhen<br>
+  <sup>*</sup>Equal contribution.&emsp;<sup>†</sup>Corresponding authors.
+</div>
+
+<p align="center">
+  <img src="assets/logos/nju-logo.png" height="40" alt="Nanjing University">&emsp;
+  <img src="assets/logos/baai-logo.png" height="40" alt="BAAI">&emsp;
+  <img src="assets/logos/buaa-logo.png" height="40" alt="Beihang University">&emsp;
+  <img src="assets/logos/tsinghua-logo.png" height="40" alt="Tsinghua University">
+</p>
+
 <p align="center">
   <a href="">
     <img src="https://img.shields.io/badge/arXiv-PDF-b31b1b" alt="Paper">
