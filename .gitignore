@@ -1,0 +1,30 @@
+# Model weights and large binary files
+checkpoints/
+models/
+
+# Unreleased / work-in-progress files
+tobereleased/
+
+# Inference outputs
+inference_output/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
