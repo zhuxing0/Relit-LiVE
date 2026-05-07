@@ -20,10 +20,10 @@
   <a href="">
     <img src="https://img.shields.io/badge/arXiv-PDF-b31b1b" alt="Paper">
   </a>
-  <a href="">
+  <a href="https://zhuxing0.github.io/projects/Relit-LiVE/">
     <img src="https://raw.githubusercontent.com/prs-eth/Marigold/main/doc/badges/badge-website.svg" alt="Website">
   </a>
-  <a href="">
+  <a href="https://huggingface.co/weiqingXiao/Relit-LiVE">
     <img src="https://img.shields.io/badge/🤗%20Hugging%20Face%20-Model-green" alt="Hugging Face Model">
   </a>
   <a href="https://www.apache.org/licenses/LICENSE-2.0">
