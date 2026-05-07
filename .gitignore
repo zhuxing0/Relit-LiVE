@@ -1,6 +1,6 @@
 # Model weights and large binary files
 checkpoints/
-models/
+/models/
 
 # Unreleased / work-in-progress files
 tobereleased/
