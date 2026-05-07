@@ -18,8 +18,8 @@ __pycache__/
 # Virtual environments
 .env
 .venv
-env/
-venv/
+/env/
+/venv/
 
 # IDE
 .vscode/
