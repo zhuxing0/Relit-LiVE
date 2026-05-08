@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="">
+  <a href="https://arxiv.org/pdf/2605.06658">
     <img src="https://img.shields.io/badge/arXiv-PDF-b31b1b" alt="Paper">
   </a>
   <a href="https://zhuxing0.github.io/projects/Relit-LiVE/">
@@ -31,7 +31,7 @@
   </a>
 </p>
 
-This repo contains the official code of our paper: [Relit-LiVE: Relight Video by Jointly Learning Environment Video](https://github.com/zhuxing0/Relit-LiVE).
+This repo contains the official code of our paper: [Relit-LiVE: Relight Video by Jointly Learning Environment Video](https://arxiv.org/pdf/2605.06658).
 
 ## 📊 Overview
 
